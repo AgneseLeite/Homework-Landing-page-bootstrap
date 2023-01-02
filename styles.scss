@@ -1,0 +1,290 @@
+.container-xl {
+  max-width: 1903px;
+  padding: 4rem 7rem 8rem 7rem;
+}
+
+.header__container {
+  background-image: url("assets/images/Cleaning_page_head.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 80px;
+  color: #2E8CAD;
+  margin-top: 6.5rem;
+  margin-bottom: 30px;
+}
+
+.header__paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.header__link {
+  margin-bottom: 14px;
+}
+
+.services__links {
+  width: 115px;
+}
+
+.header__button,
+.about__section__button,
+.services__section__button,
+.testymonials__section__button {
+  margin-top: 30px;
+  width: 160px;
+  height: 50px;
+  background: #2EBAEB;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border-radius: 40px;
+  border: none;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  box-shadow: #2EBAEB;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #2EBAEB;
+
+  &:hover {
+    cursor: pointer;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+  }
+}
+
+.header__col {
+  margin-right: 13rem;
+}
+
+.header__col__links {
+  background-image: url("assets/images/Rectangle\ 247.png");
+  background-repeat: no-repeat;
+  padding: 60px 48px 43px 53px;
+  margin-top: 9rem;
+  margin-right: 0;
+}
+
+.header__links__title {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  color: #2E8CAD;
+  margin-bottom: 40px;
+}
+
+.contact__link {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  width: 374px;
+  height: 56px;
+  background: #94D3EA;
+  border-radius: 61px;
+  text-align: center;
+  color: #2E8CAD;
+  font-size: 38px;
+  margin-top: 14px;
+  padding-left: 90px;
+}
+
+.link--first {
+  padding-left: 110px;
+}
+
+.contact__link--short {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  width: 168px;
+  height: 56px;
+  border: 3px solid #94D3EA;
+  border-radius: 61px;
+  color: #2E8CAD;
+  font-size: 38px;
+  margin-top: 14px;
+  margin-left: 75px;
+  padding-left: 25px;
+}
+
+
+/****** About Us section ******/
+
+.about__section__container {
+  background-color: #FFFFFF;
+}
+
+.about__title,
+.services__title {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #2E8CAD;
+  margin-bottom: 3rem;
+}
+
+.about__num {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.col--middle {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.about__col--hover {
+  padding: 3px;
+
+  &:hover {
+    cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+.about__section__button,
+.services__section__button,
+.testymonials__section__button {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+/****** Services section ******/
+
+.services__section__container {
+  background-color: #F2F2F2;
+}
+
+.services__cards {
+  text-align: center;
+}
+
+.services__card__col {
+  max-width: 385px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  margin-bottom: 8px;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+}
+
+.card__col--2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.services__img {
+  margin-bottom: 30px;
+  margin-left: -12px;
+}
+
+.services__subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.services__paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-align: left;
+  margin-left: 30px;
+}
+
+/******* Testymonials section ******/ 
+
+.testymonials__section__container {
+  background-color: #95D4EB;
+}
+
+.testymonials__title {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+}
+
+.testymonial__card {
+  max-width: 577px;
+  min-height: 233px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+  border-radius: 40px;
+  margin-bottom: 30px;
+  margin-right: 45px;
+  padding: 30px;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+}
+
+.testymonial__avatar {
+  width: 95px;
+  height: 80px;
+}
+
+.testymonial__subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #50B2EA;
+}
+
+.testymonial__paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #19435A;
+}
+
+.testymonial__cards {
+  margin-left: 9rem;
+  margin-right: 4rem;
+}
+
+.footer__container {
+  width: 1903px;
+  height: 92px;
+  background-color: #47626B;
+}
